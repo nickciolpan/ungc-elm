@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "create-elm-app": "^4.2.1"
+  }
+}

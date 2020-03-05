@@ -26,7 +26,7 @@ stories : UIExplorer.UI a () { hasMenu : Bool }
 stories =
     storiesOf
         "Button"
-        [ ( "Primary", \_ -> Button.view "+ Create a new COP" { config | class = "" } (), { hasMenu = True } )
+        [ ( "Primary", \_ -> Button.view "+ Create a new COP" { config | class = "button--ghost" } (), { hasMenu = True } )
         , ( "Link", \_ -> Button.view "View All" { config | kind = Link, appearance = Secondary } (), { hasMenu = True } )
         , ( "GhostPrimary", \_ -> Button.view "Export Data" { config | kind = Ghost } (), { hasMenu = True } )
         , ( "GhostSecondary", \_ -> Button.view "Dashboard" { config | appearance = Secondary, kind = Ghost } (), { hasMenu = True } )

@@ -1,8 +1,7 @@
-module Main exposing (main)
+module UIExplorerMain exposing (main)
 
 import Components.Button.Stories as Button
 import Components.Header.Stories as Header
-import Guidelines.Colors as ColorGuide
 import Html
 import Html.Attributes exposing (style)
 import UIExplorer exposing (UIExplorerProgram, category, createCategories, defaultConfig, exploreWithCategories, logoFromUrl, storiesOf)
@@ -27,7 +26,7 @@ main =
     exploreWithCategories
         config
         (createCategories
-            |> category "Components"
+            |> category "Atoms"
                 [ Button.stories
                 , Header.stories
                 ]

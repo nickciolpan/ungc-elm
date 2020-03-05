@@ -15,7 +15,7 @@ import Theme.Typography exposing (typography)
 
 iconsCollection : List Icon
 iconsCollection =
-    [ icon.pita, icon.salad, icon.frenchFries, icon.soda, icon.iceCream, icon.logo, icon.menu ]
+    [ icon.logo, icon.menu ]
 
 
 viewIcon : Color -> Color -> Icon -> Element msg
